@@ -14,7 +14,7 @@ I architect AI-powered systems that solve structural operational problems. My fo
 
 **7+ years** across financial services, healthcare, and marketplace operations. Independent consultant and AI systems builder—currently advising **[Findzo](https://www.findzo.ai/)** (Founding Team) on AI observability and operational risk, while maintaining independent projects and AI training work (Handshake & others).
 
-**Available for:** Full-time Associate Manager roles in Strategy & Operations or Customer Experience where AI solves real operational problems, not just replaces headcount.
+**Available for:** Full-time roles in Strategy & Operations or Customer Experience where AI solves real operational problems, not just replaces headcount.
 
 ---
 
