@@ -12,9 +12,9 @@
 
 I architect AI-powered systems that solve structural operational problems. My focus: **detect fast, decide smart, scale without chaos.** I design workflows where automation and human judgment work together—shifting operations from reactive fire-fighting to proactive decision-making.
 
-**7+ years** across financial services, healthcare, and marketplace operations. Currently consulting at **[Findzo](https://findzo.ai)** (Founding Team) on AI observability and operational risk.
+**7+ years** across financial services, healthcare, and marketplace operations. Independent consultant and AI systems builder—currently advising **[Findzo](https://findzo.ai)** (Founding Team) on AI observability and operational risk, while maintaining independent projects and AI training work (Handshake & others).
 
-**Looking for:** Associate Manager roles in Strategy & Operations or Customer Experience where AI is a tool, not the product.
+**Available for:** Full-time Associate Manager roles in Strategy & Operations or Customer Experience where AI solves real operational problems, not just replaces headcount.
 
 ---
 
