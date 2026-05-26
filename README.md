@@ -40,7 +40,6 @@ Watches Slack 24/7 for policy signals (proposals & deviations). Routes proposals
 
 **Tech:** Python, Slack Socket Mode, Notion API, Google Gemini  
 **GitHub:** [Gap-Detector](https://github.com/dhivya90m/Gap-Detector)  
-**Blog Deep Dive:** [Read the full architectural breakdown](https://dhivyatechjournal.blogspot.com)
 
 ---
 
