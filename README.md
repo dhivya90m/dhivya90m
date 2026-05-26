@@ -208,16 +208,6 @@ Bachelor of Engineering, Electrical & Electronics (Anna University, Chennai)
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=dhivya90m&theme=default)](https://github.com/DenverCoder1/github-readme-streak-stats)
-
-</div>
-
----
-
 ## 🔗 Let's Connect
 
 I'm most interested in conversations about operational scale, AI as a tool for decision-making (not automation theater), and fixing the gap between what teams want to do and what their systems let them do.
