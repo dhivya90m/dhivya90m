@@ -1,9 +1,6 @@
-# Operations & AI Systems | Associate Manager | Building Intelligent Scale
+# Operations & AI Systems | Building Intelligent Scale
 
 <div align="center">
-
-![GitHub followers](https://img.shields.io/github/followers/dhivya90m?style=social)
-![GitHub User's stars](https://img.shields.io/github/stars/dhivya90m?style=social)
 
 **[LinkedIn](https://www.linkedin.com/in/dhivya-marimuthu)** • **[Blog](https://dhivyatechjournal.blogspot.com)** • **[Email](mailto:dhivya.marimuthu1208@gmail.com)**
 
