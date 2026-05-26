@@ -76,45 +76,44 @@ I don't build systems to demonstrate AI capability. I build them because I keep 
 ---
 
 ### **[GenAI Risk & Compliance Assistant](https://github.com/dhivya90m/GenAI-Risk-Compliance-Assistant)**
-**Problem:** Risk and compliance teams spend hours manually parsing regulatory filings to find what's relevant. By the time insights surface, decisions have already been made without them.
-**Action:** Built a multi-agent RAG system that ingests raw SEC filings, indexes them semantically, and returns instant AI-powered answers with auditable sourcing.
-**Result:** Compressed the entire workflow — from raw filings to actionable intelligence — without human triage.
-**Tech:** Python, Snowflake, Google Gemini, Multi-agent orchestration
+- **Problem:** Risk teams spend hours manually parsing regulatory filings. By the time insights surface, decisions have already been made without them.
+- **Action:** Built a multi-agent RAG system that ingests raw SEC filings, indexes them semantically, and returns instant AI-powered answers with auditable sourcing.
+- **Result:** Compressed the entire workflow from raw filings to actionable intelligence — without human triage.
+- **Tech:** Python, Snowflake, Google Gemini, Multi-agent orchestration
 
 ---
 
 ### **[Salesforce-Powered SLA Risk Analyzer](https://dhivyatechjournal.blogspot.com/2025/11/from-raw-support-tickets-to-ai-driven.html)** ⏱️
-**Problem:** Support teams reviewed SLA performance weekly. By the time a breach was flagged, it had already happened — and the customer had already felt it.
-**Action:** Built a predictive Agentforce agent that monitors ticket age and complexity in real time, scores near-breach risk, and auto-routes escalations before failure.
-**Result:** Shifted SLA management from reactive weekly reporting to proactive same-day intervention.
-**Tech:** Salesforce Agentforce, Einstein AI, Salesforce Flow, Data Cloud
-**Blog:** [From Raw Support Tickets to an AI-Driven SLA Risk Analyzer](https://dhivyatechjournal.blogspot.com/2025/11/from-raw-support-tickets-to-ai-driven.html)
+- **Problem:** Support teams reviewed SLA performance weekly. By the time a breach was flagged, it had already happened — and the customer had already felt it.
+- **Action:** Built a predictive Agentforce agent that monitors ticket age and complexity in real time, scores near-breach risk, and auto-routes escalations before failure.
+- **Result:** Shifted SLA management from reactive weekly reporting to proactive same-day intervention.
+- **Tech:** Salesforce Agentforce, Einstein AI, Salesforce Flow, Data Cloud
+- **Blog:** [From Raw Support Tickets to an AI-Driven SLA Risk Analyzer](https://dhivyatechjournal.blogspot.com/2025/11/from-raw-support-tickets-to-ai-driven.html)
 
 ---
 
 ### **[Revenue Identity Resolver](https://dhivyatechjournal.blogspot.com/2026/01/from-identity-chaos-to-revenue-clarity.html)** 🎯
-**Problem:** The same buyer enters a sales funnel multiple times under different identities. Two reps get assigned. Messaging becomes inconsistent. The deal path fragments — and the CRM history becomes impossible to trust.
-**Action:** Built a real-time identity resolution system that detects duplicate leads at the moment of creation, not weeks later during data cleanup.
-**Result:** Rep collisions prevented upstream, before inconsistent outreach damages the buyer relationship.
-**Tech:** AI-powered identity matching, CRM integration, real-time deduplication
-**Blog:** [From Identity Chaos to Revenue Clarity](https://dhivyatechjournal.blogspot.com/2026/01/from-identity-chaos-to-revenue-clarity.html)
+- **Problem:** The same buyer enters a sales funnel multiple times under different identities. Two reps get assigned, messaging becomes inconsistent, and the CRM history becomes impossible to trust.
+- **Action:** Built a real-time identity resolution system that detects duplicate leads at the moment of creation, not weeks later during data cleanup.
+- **Result:** Rep collisions prevented upstream, before inconsistent outreach damages the buyer relationship.
+- **Tech:** AI-powered identity matching, CRM integration, real-time deduplication
+- **Blog:** [From Identity Chaos to Revenue Clarity](https://dhivyatechjournal.blogspot.com/2026/01/from-identity-chaos-to-revenue-clarity.html)
 
 ---
 
 ### **[Self-Healing Support Ops (RILO)](https://dhivyatechjournal.blogspot.com/2026/01/self-healing-support-ops-stop.html)**
-**Problem:** A worker with a perfect record gets deactivated by a technical glitch. They have the receipts. But support follows a script that doesn't account for the exception — and they churn silently. Platforms never see it coming because user evidence lives on Reddit, not in the Help Center.
-**Action:** Built an autonomous pipeline that mines community forums for escalation signals, audits Help Center documentation against real user complaints, and auto-generates updated SOPs when gaps are found.
-**Result:** Documentation gaps surface before they become churn drivers — without waiting for a support ticket to reveal them.
-**Blog:** [Stop Escalation Deadlocks Before They Drive Churn](https://dhivyatechjournal.blogspot.com/2026/01/self-healing-support-ops-stop.html)
+- **Problem:** A worker with a perfect record gets deactivated by a glitch. Support follows a script that doesn't account for the exception — and they churn silently. User evidence lives on Reddit, not in the Help Center.
+- **Action:** Built an autonomous pipeline that mines community forums for escalation signals, audits Help Center docs against real complaints, and auto-generates updated SOPs when gaps are found.
+- **Result:** Documentation gaps surface before they become churn drivers — without waiting for a ticket to reveal them.
+- **Blog:** [Stop Escalation Deadlocks Before They Drive Churn](https://dhivyatechjournal.blogspot.com/2026/01/self-healing-support-ops-stop.html)
 
 ---
 
 ### **[The Thinking Behind LogiSight](https://dhivyatechjournal.blogspot.com/2025/11/beyond-excel-building-intelligent.html)**
-**Problem:** Operations teams asked for "better dashboards." What they actually needed was a way to test decisions before making them — because dashboards tell you what happened, not what to do next.
-**Action:** Designed LogiSight around simulation-first thinking: operators test rule changes against historical data before deployment, not after.
-**Result:** The design principle — simulate before you commit — became the core of how LogiSight handles every analytical workflow.
-**Blog:** [Beyond Dashboards: Why Decision Support Means Simulation, Not Snapshots](https://dhivyatechjournal.blogspot.com/2025/11/beyond-excel-building-intelligent.html)
-
+- **Problem:** Operations teams asked for better dashboards. What they actually needed was a way to test decisions before making them — dashboards tell you what happened, not what to do next.
+- **Action:** Designed LogiSight around simulation-first thinking: operators test rule changes against historical data before deployment, not after.
+- **Result:** The simulate-before-you-commit principle became the core of how LogiSight handles every analytical workflow.
+- **Blog:** [Beyond Dashboards: Why Decision Support Means Simulation, Not Snapshots](https://dhivyatechjournal.blogspot.com/2025/11/beyond-excel-building-intelligent.html)
 ---
 
 ## 🛠️ Skills & Focus
