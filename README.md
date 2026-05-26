@@ -215,8 +215,6 @@ Shows how an operator can leverage Google Gemini to compress the entire ops anal
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=dhivya90m&theme=default)](https://github.com/DenverCoder1/github-readme-streak-stats)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dhivya90m&layout=compact&theme=default)
-
 </div>
 
 ---
