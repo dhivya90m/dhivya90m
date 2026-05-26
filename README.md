@@ -108,7 +108,6 @@ Python, TypeScript, SQL, Notion API, Slack API, Google Gemini, Salesforce, n8n
 - ✅ **24/7 policy enforcement** with zero file management overhead
 - ✅ **Same-hour incident response** (shifted from weekly reviews)
 - ✅ **Proactive SLA intervention** before breach (shifted from reactive reporting)
-- ✅ **457+ support sessions** delivered with 4.7/5 CSAT and zero cancellations
 
 ---
 
@@ -140,30 +139,6 @@ Demonstrates document indexing, semantic search, and AI-powered retrieval at sca
 Built on AWS (DynamoDB, Lambda, SageMaker). Shows end-to-end ML pipeline from data ingestion to deployed recommendation model.
 
 **Tech:** Python, AWS, Machine Learning, Serverless architecture
-
----
-
-## 📖 Background
-
-**Findzo** (Current)  
-Product Strategy & Operations Consultant, Founding Team  
-*Architecting operational frameworks for AI-native observability platform*
-
-**Independent AI & Operations Projects** (2023–Present)  
-*Production-grade systems for agent-assist tooling, anomaly detection, policy governance, decision support*
-
-**WhiteHat Jr** (2020)  
-*Technical Instructor, Curriculum Designer | 4.7/5 CSAT, 13.3% trial-to-paid conversion, 15% reduction in onboarding time*
-
-**Fidelity Investments** (2016–2018)  
-*Sr. Operations Associate | 70% reduction in recurring incidents through root-cause resolution, 40% automation of manual processing*
-
-**Change Healthcare & Costco** (2013–2016)  
-*Operations at scale: SQL automation, process design, workflow optimization, reconciliation automation*
-
-**Education:**  
-Post-Graduate Program in AI & ML: Business Applications (UT Austin, McCombs, 2025)  
-Bachelor of Engineering, Electrical & Electronics (Anna University, Chennai)
 
 ---
 
@@ -206,6 +181,30 @@ Shows how an operator can leverage Google Gemini to compress the entire ops anal
 
 **Tech:** Google Gemini, Google AI Studio, CSV processing, Real-time KPI analysis  
 **Blog Deep Dive:** [AI-Driven Logistics KPI Agent for Modern Operations](https://dhivyatechjournal.blogspot.com/2025/11/ai-driven-logistics-kpi-agent-for.html)
+
+---
+
+## 📖 Background
+
+**Findzo** (Current)  
+Product Strategy & Operations Consultant, Founding Team  
+*Architecting operational frameworks for AI-native observability platform*
+
+**Independent AI & Operations Projects** (2023–Present)  
+*Production-grade systems for agent-assist tooling, anomaly detection, policy governance, decision support*
+
+**WhiteHat Jr** (2020)  
+*Technical Instructor, Curriculum Designer | 4.7/5 CSAT, 13.3% trial-to-paid conversion, 15% reduction in onboarding time*
+
+**Fidelity Investments** (2016–2018)  
+*Sr. Operations Associate | 70% reduction in recurring incidents through root-cause resolution, 40% automation of manual processing*
+
+**Change Healthcare & Costco** (2013–2016)  
+*Operations at scale: SQL automation, process design, workflow optimization, reconciliation automation*
+
+**Education:**  
+Post-Graduate Program in AI & ML: Business Applications (UT Austin, McCombs, 2025)  
+Bachelor of Engineering, Electrical & Electronics (Anna University, Chennai)
 
 ---
 
