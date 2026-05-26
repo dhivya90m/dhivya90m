@@ -69,15 +69,51 @@ Monitors live incident data, runs trend & root-cause analysis in real time, filt
 
 ---
 
-## 📚 How I Think
+## 📚 How I Think & What I've Built
 
-I document the full thinking behind these systems on my blog. These aren't toy projects—they're production patterns tested in real environments:
+I don't build systems to demonstrate AI capability. I build them because I keep seeing the same operational failures — teams that react too late, tools that report instead of decide, and policies that drift silently until something breaks. Every project below starts with a real problem I observed, not a technology I wanted to try.
 
-- **[Self-Healing Support Ops](https://dhivyatechjournal.blogspot.com/2026/01/self-healing-support-ops-stop.html)** — How to bridge the gap between user evidence and company policy using AI. The operational nightmare: workers get deactivated by glitches, hit a support wall, and churn.
+---
 
-- **[Scaling Incident Response](https://dhivyatechjournal.blogspot.com/2026/04/scaling-incident-response-how-i-built.html)** — The journey from alert fatigue to real-time anomaly detection. Moving safety teams from weekly reviews to same-hour action.
+### **[GenAI Risk & Compliance Assistant](https://github.com/dhivya90m/GenAI-Risk-Compliance-Assistant)**
+**Problem:** Risk and compliance teams spend hours manually parsing regulatory filings to find what's relevant. By the time insights surface, decisions have already been made without them.
+**Action:** Built a multi-agent RAG system that ingests raw SEC filings, indexes them semantically, and returns instant AI-powered answers with auditable sourcing.
+**Result:** Compressed the entire workflow — from raw filings to actionable intelligence — without human triage.
+**Tech:** Python, Snowflake, Google Gemini, Multi-agent orchestration
 
-- **[Beyond Dashboards](https://dhivyatechjournal.blogspot.com/2025/11/beyond-excel-building-intelligent.html)** — Why decision support means simulation, not snapshots. How to design tools that let operators test rule changes before they hit production at scale.
+---
+
+### **[Salesforce-Powered SLA Risk Analyzer](https://dhivyatechjournal.blogspot.com/2025/11/from-raw-support-tickets-to-ai-driven.html)** ⏱️
+**Problem:** Support teams reviewed SLA performance weekly. By the time a breach was flagged, it had already happened — and the customer had already felt it.
+**Action:** Built a predictive Agentforce agent that monitors ticket age and complexity in real time, scores near-breach risk, and auto-routes escalations before failure.
+**Result:** Shifted SLA management from reactive weekly reporting to proactive same-day intervention.
+**Tech:** Salesforce Agentforce, Einstein AI, Salesforce Flow, Data Cloud
+**Blog:** [From Raw Support Tickets to an AI-Driven SLA Risk Analyzer](https://dhivyatechjournal.blogspot.com/2025/11/from-raw-support-tickets-to-ai-driven.html)
+
+---
+
+### **[Revenue Identity Resolver](https://dhivyatechjournal.blogspot.com/2026/01/from-identity-chaos-to-revenue-clarity.html)** 🎯
+**Problem:** The same buyer enters a sales funnel multiple times under different identities. Two reps get assigned. Messaging becomes inconsistent. The deal path fragments — and the CRM history becomes impossible to trust.
+**Action:** Built a real-time identity resolution system that detects duplicate leads at the moment of creation, not weeks later during data cleanup.
+**Result:** Rep collisions prevented upstream, before inconsistent outreach damages the buyer relationship.
+**Tech:** AI-powered identity matching, CRM integration, real-time deduplication
+**Blog:** [From Identity Chaos to Revenue Clarity](https://dhivyatechjournal.blogspot.com/2026/01/from-identity-chaos-to-revenue-clarity.html)
+
+---
+
+### **[Self-Healing Support Ops (RILO)](https://dhivyatechjournal.blogspot.com/2026/01/self-healing-support-ops-stop.html)**
+**Problem:** A worker with a perfect record gets deactivated by a technical glitch. They have the receipts. But support follows a script that doesn't account for the exception — and they churn silently. Platforms never see it coming because user evidence lives on Reddit, not in the Help Center.
+**Action:** Built an autonomous pipeline that mines community forums for escalation signals, audits Help Center documentation against real user complaints, and auto-generates updated SOPs when gaps are found.
+**Result:** Documentation gaps surface before they become churn drivers — without waiting for a support ticket to reveal them.
+**Blog:** [Stop Escalation Deadlocks Before They Drive Churn](https://dhivyatechjournal.blogspot.com/2026/01/self-healing-support-ops-stop.html)
+
+---
+
+### **[The Thinking Behind LogiSight](https://dhivyatechjournal.blogspot.com/2025/11/beyond-excel-building-intelligent.html)**
+**Problem:** Operations teams asked for "better dashboards." What they actually needed was a way to test decisions before making them — because dashboards tell you what happened, not what to do next.
+**Action:** Designed LogiSight around simulation-first thinking: operators test rule changes against historical data before deployment, not after.
+**Result:** The design principle — simulate before you commit — became the core of how LogiSight handles every analytical workflow.
+**Blog:** [Beyond Dashboards: Why Decision Support Means Simulation, Not Snapshots](https://dhivyatechjournal.blogspot.com/2025/11/beyond-excel-building-intelligent.html)
 
 ---
 
@@ -109,80 +145,6 @@ Python, TypeScript, SQL, Notion API, Slack API, Google Gemini, Salesforce, n8n
 - ✅ **Proactive SLA intervention** before breach (shifted from reactive reporting)
 
 ---
-
-## 📦 Other Notable Projects (GitHub)
-
-### **[GenAI Risk & Compliance Assistant](https://github.com/dhivya90m/GenAI-Risk-Compliance-Assistant)**
-**Multi-agent RAG system for regulatory intelligence**
-
-Turns raw SEC filings into real-time, actionable intelligence. Features document indexing, semantic search, AI-powered reasoning, and interactive risk analytics.
-
-**Why it matters:** Risk and compliance teams drown in paperwork. This system compresses the entire workflow—from raw filings to instant answers—using structured, auditable AI.
-
-**Tech:** Python, Snowflake, Google Gemini, Multi-agent orchestration
-
----
-
-### **[Medical RAG Assistant](https://github.com/dhivya90m/Medical-RAG-Assistant)**
-**Retrieval-augmented generation system for medical knowledge**
-
-Demonstrates document indexing, semantic search, and AI-powered retrieval at scale. Built to show how RAG architectures work in practice with real medical datasets.
-
-**Tech:** Python, RAG, Semantic search, LLMs
-
----
-
-### **[AI-driven Audiobook Recommendation System](https://github.com/dhivya90m/AI-driven-audiobook-recommendation-system-using-AWS)**
-**Serverless recommendation engine**
-
-Built on AWS (DynamoDB, Lambda, SageMaker). Shows end-to-end ML pipeline from data ingestion to deployed recommendation model.
-
-**Tech:** Python, AWS, Machine Learning, Serverless architecture
-
----
-
-## 🔍 Additional Work: Blog-Documented Systems
-
-These are production systems I've built and documented in detail on my blog. Each shows a different operational challenge and the AI solution I engineered.
-
----
-
-### **[Salesforce-Powered SLA Risk Analyzer](https://dhivyatechjournal.blogspot.com/2025/11/from-raw-support-tickets-to-ai-driven.html)** ⏱️
-**Predictive agent for support operations (Salesforce Agentforce)**
-
-Built a real-time SLA monitoring and predictive escalation system using Salesforce's Einstein AI and Agentforce. Monitors ticket age & complexity, predicts near-breach risk and CSAT outcomes, auto-routes escalations before SLA failure.
-
-**Why it matters:** Support teams ran weekly SLA reports. This replaces reactive reporting with proactive intervention—predicting failures hours before they happen.
-
-**Tech:** Salesforce Agentforce, Einstein AI, Salesforce Flow, Data Cloud  
-**Blog Deep Dive:** [From Raw Support Tickets to an AI-Driven SLA Risk Analyzer in Salesforce](https://dhivyatechjournal.blogspot.com/2025/11/from-raw-support-tickets-to-ai-driven.html)
-
----
-
-### **[Revenue Identity Resolver](https://dhivyatechjournal.blogspot.com/2026/01/from-identity-chaos-to-revenue-clarity.html)** 🎯
-**GTM data quality system for partner ecosystems**
-
-Prevents rep collisions caused by duplicate identities at the moment leads are created, not weeks later during cleanup. Solves the problem of "same buyer, different identities, different reps, inconsistent messaging."
-
-**Why it matters:** A buyer enters your funnel multiple times under different email addresses. Your team treats them as different people. Reps collide. The deal path becomes messy. This intercepts before that happens.
-
-**Tech:** AI-powered identity matching, CRM integration, real-time deduplication  
-**Blog Deep Dive:** [From Identity Chaos to Revenue Clarity: Engineering a Proactive Resolver for Partner Ecosystems](https://dhivyatechjournal.blogspot.com/2026/01/from-identity-chaos-to-revenue-clarity.html)
-
----
-
-### **[AI-Driven Logistics KPI Agent](https://dhivyatechjournal.blogspot.com/2025/11/ai-driven-logistics-kpi-agent-for.html)** 📈
-**Proof of concept for Ops + AI + Analytics convergence**
-
-Shows how an operator can leverage Google Gemini to compress the entire ops analytics workflow—data quality checks, KPI aggregation, anomaly detection, root-cause recommendations, and WBR reporting—into something that runs instantly on raw CSVs.
-
-**Why it matters:** Operations teams wait for engineering to build tools. This shows how AI lets operators become analysts, architects, and automation engines. Instant insights from messy data.
-
-**Tech:** Google Gemini, Google AI Studio, CSV processing, Real-time KPI analysis  
-**Blog Deep Dive:** [AI-Driven Logistics KPI Agent for Modern Operations](https://dhivyatechjournal.blogspot.com/2025/11/ai-driven-logistics-kpi-agent-for.html)
-
----
-
 ## 📖 Background
 
 **Findzo** (Current)  
