@@ -56,7 +56,7 @@ Data ingestion → SQL cleaning → AI reasoning → what-if simulation → stak
 
 ---
 
-### **[Ops Pulse (Safety Anomaly Detector)][(https://github.com/dhivya90m/Delivery-KPI-Monitoring-Agent)](https://github.com/dhivya90m/Delivery-KPI-Monitoring-Agent/tree/feat-delivery-kpi-monitoring-agent)** 🚨
+### **[Ops Pulse (Safety Anomaly Detector)](https://github.com/dhivya90m/Delivery-KPI-Monitoring-Agent)](https://github.com/dhivya90m/Delivery-KPI-Monitoring-Agent/tree/feat-delivery-kpi-monitoring-agent)** 🚨
 **Autonomous safety intelligence pipeline**
 
 Monitors live incident data, runs trend & root-cause analysis in real time, filters for true P0 crises, fires executive alerts within minutes.
