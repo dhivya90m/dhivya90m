@@ -56,7 +56,7 @@ Data ingestion → SQL cleaning → AI reasoning → what-if simulation → stak
 
 ---
 
-### **[Ops Pulse (Safety Anomaly Detector)](https://github.com/dhivya90m/Delivery-KPI-Monitoring-Agent)** 🚨
+### **[Ops Pulse (Safety Anomaly Detector)][(https://github.com/dhivya90m/Delivery-KPI-Monitoring-Agent)](https://github.com/dhivya90m/Delivery-KPI-Monitoring-Agent/tree/feat-delivery-kpi-monitoring-agent)** 🚨
 **Autonomous safety intelligence pipeline**
 
 Monitors live incident data, runs trend & root-cause analysis in real time, filters for true P0 crises, fires executive alerts within minutes.
@@ -64,7 +64,7 @@ Monitors live incident data, runs trend & root-cause analysis in real time, filt
 **Why it matters:** Safety teams ran weekly reviews. Incidents were already widespread by Tuesday morning. This shifts response from weekly to same-hour.
 
 **Tech:** n8n, Google Gemini, Notion, Slack API  
-**GitHub:** [Delivery-KPI-Monitoring-Agent](https://github.com/dhivya90m/Delivery-KPI-Monitoring-Agent)  
+**GitHub:** [Delivery-KPI-Monitoring-Agent] [https://github.com/dhivya90m/Delivery-KPI-Monitoring-Agent](https://github.com/dhivya90m/Delivery-KPI-Monitoring-Agent/tree/feat-delivery-kpi-monitoring-agent)  
 **Blog Deep Dive:** [Scaling Incident Response: How I Built an AI-Powered Safety Engine](https://dhivyatechjournal.blogspot.com/2026/04/scaling-incident-response-how-i-built.html)
 
 ---
